@@ -459,6 +459,7 @@ room3.cabinet2.resize(180)
 room3.cabinet2.locate(1160,365)
 
 room3.cabinet2.onClick=function(){
+	printMessage("캐비닛이 잠금장치로 잠겨있다. 열수있는 방법이 없을까?")
 	if(room3.key1.isHanded()&&!this.id.isLocked() && this.id.isClosed()){
 		room3.cabinet2.open()
 		room3.cabinet2.setSprite('찬장-2-열림.png')
