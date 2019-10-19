@@ -488,7 +488,7 @@ room3.earth1.resize(50)
 room3.earth1.locate(1160,225)
 room3.earth1.onClick=function(){
 	printMessage('지구본을 살펴보니 무언가 쓰여 있다.')
-	showImageViewer("종이2.png","모스크바.txt")
+	showImageViewer("모스크바.PNG","")
 }
 
 room3.carpet2 = new Object(room3, 'carpet2', '카펫.png')
@@ -511,7 +511,7 @@ room3.note1.resize(80)
 room3.note1.locate(660,300)
 room3.note1.onClick=function(){
 	printMessage("무슨 내용인지 볼까?")
-	showImageViewer("종이2.png","일기.txt")
+	showImageViewer("일기.PNG","")
 }
 
 room3.plant1=new Object(room3,'plant1','식물2-1.png')
